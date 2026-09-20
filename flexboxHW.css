@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card-list{
+    display: flex;
+    gap: 16px;
+    max-width: 840px;
+    min-height: 160px;
+    margin: 40px;
+}
+
+.card{
+    flex: 1 1 180px;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 12px;
+
+
+}
+.card .card__eyebrow{
+    margin: 0 0 12px;
+    color: #0f766e;
+    /* font: 12px; */
+    font-weight: 800;
+}
+
+.card h3{
+    font: 18px;
+    margin: 0 0 8px;
+}
+
+
+
+.card p{
+    color: #64748b;
+    line-height: 1.5;
+}

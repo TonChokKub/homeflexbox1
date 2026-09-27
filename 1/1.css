@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration-line: none;
+    font-family: Arial, sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:  1px solid gray;
+    padding: 0 28px ;
+}
+
+.brand {
+    font-size: 20px;
+    color: blue;
+    font-weight: 800;
+
+}
+
+.nav{
+    display: flex;
+    gap: 24px;
+    font-size: 14px;
+    margin: 28px 0;
+}
+
+.nav a{
+    color: #46556d;
+}
+
+
+.cta{
+    padding: 9px 16px;
+    border: 0 solid blue;
+    color: white;
+    background-color: blue;
+    border-radius: 6px;
+    font-weight: 700;
+}
